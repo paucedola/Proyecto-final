@@ -4,73 +4,33 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tejido a mano</title>
-    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
   </head>
   <body>
     <header>
-      <div class="div-logo"><a class="logo" href="./index.htm">LOGO</a></div>
-      <h2>Tejido a mano</h2>
+      <div class="div-logo"><a class="logo" href="./index.html">LOGO</a></div>
+      <h2 id="titulo-principal">Tejido a mano</h2>
       <nav class="header-nav">
         <ul>
           <li><a href="./index.html">Home</a></li>
-          <li><a href="../pages/contactos.html">Contacto</a></li>
-          <li><a href="../pages/productos.htm">Producto</a></li>
-          <li><a href="../pages/carrito">Carrito</a></li>
+          <li><a href="./pages/contactos.html">Contacto</a></li>
+          <li>
+            <a href="./pages/carrito.html" class="carrito-icono"
+              >🛒 Carrito <span id="contador-carrito">0</span></a
+            >
+          </li>
         </ul>
       </nav>
     </header>
     <main>
       <h1 class="titulo-home text-secondary">Bienbenidos a la tienda</h1>
-      <section>
+
+      <section id="contenedor">
         <h2 class="titulo-producto">Nuestros productos</h2>
-        <div class="contenedor-tarjetas">
-          <article class="card text- text-secondary">
-            <img
-              src="./img/chaleco violeta.jpg"
-              alt="chaleco santa clara color violeta"
-            />
-            <h3>Tejido santa clara violeta</h3>
-            <p>Precio:$20.000</p>
-            <button class="btn bg-secondary text-dark">
-              Agregar al carrito
-            </button>
-          </article>
 
-          <article class="card text-secondary">
-            <img
-              src="./img/Chaleco amarillo.jpg"
-              alt="chaleco santa clara amarillo"
-            />
-            <h3>Tejido santa clara amarillo</h3>
-            <p>Precio:$20.000</p>
-            <button class="btn bg-secondary text-dark">
-              Agregar al carrito
-            </button>
-          </article>
-
-          <article class="card text-secondary">
-            <img
-              src="./img/chaleco marron.jpg"
-              alt="chaleco rayado chocolate"
-            />
-            <h3>Tejido santa clara chocolate</h3>
-            <p>Precio:$20.000</p>
-            <button class="btn bg-secondary text-dark">
-              Agregar al carrito
-            </button>
-          </article>
-
-          <article class="card text-secondary">
-            <img src="./img/chaleco gris.jpg" alt="chaleco de ochitos gris" />
-            <h3>Tejido ochitos gris</h3>
-            <p>Precio:$20.000</p>
-            <button class="btn bg-secondary text-dark">
-              Agregar al carrito
-            </button>
-          </article>
-        </div>
+        <div id="contenedor-tarjetas" class="contenedor-tarjetas"></div>
       </section>
     </main>
     <footer>
@@ -84,5 +44,6 @@
         </ul>
       </nav>
     </footer>
+    <script src="./js/index.js" type="module"></script>
   </body>
 </html>

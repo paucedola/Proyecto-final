@@ -16,16 +16,23 @@
       <nav class="header-nav">
         <ul>
           <li><a href="../index.html">Home</a></li>
-          <li><a href="./pages/contactos.html">Contacto</a></li>
-          <li><a href="./pages/productos.htm">Producto</a></li>
-          <li><a href="./pages/carrito">Carrito</a></li>
+          <li><a href="./contactos.html">Contacto</a></li>
+          <li>
+            <a href="./carrito.html" class="carrito-icono"
+              >🛒 Carrito <span id="contador-carrito">0</span></a
+            >
+          </li>
         </ul>
       </nav>
     </header>
     <main>
       <h1 class="titulo-contacto text-secondary">Contactanos</h1>
 
-      <form class="form-contacto" action=""https://formspree.io/f/xykonaqk"" method="POST">
+      <form
+        class="form-contacto"
+        action="https://formspree.io/f/xykonaqk"
+        method="POST"
+      >
         <div class="grupo-input">
           <label for="email"> Your email: </label>
           <input id="email" type="email" name="email" />
@@ -39,7 +46,7 @@
       </form>
     </main>
     <footer>
-      <p>Sitio realizado por Belu para Talento Tech</p>
+      <p>Sitio realizado por Paula para el curso deTalento Tech</p>
       <nav>
         <ul class="footer-list">
           <li><img src="../img/whatsapp.png" alt="logo de whatsapp" /></li>
@@ -47,5 +54,7 @@
         </ul>
       </nav>
     </footer>
+
+    <script src="../js/contacto.js" type="module"></script>
   </body>
 </html>

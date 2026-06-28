@@ -55,6 +55,20 @@ h2 {
   border-radius: 1rem;
 }
 
+.btn-eliminar-carrito {
+  background-color: #e06650;
+  border: 2px solid #d54e30;
+}
+
+.btn-vaciar-carrito {
+  background-color: #bd5151;
+  color: #1d1a20;
+}
+
+.btn-vaciar-carrito:hover {
+  background-color: #e27458;
+}
+
 header,
 footer {
   background: #f7dbdb;
@@ -160,6 +174,15 @@ footer .footer-list {
   display: block;
 }
 
+.mensaje-carrito-vacio {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+.acciones-carrito {
+  margin-top: 2rem;
+}
+
 /* -------------------------------------------------------------------------- */
 /*                                  CONTACTO                                  */
 /* -------------------------------------------------------------------------- */
@@ -193,6 +216,21 @@ footer .footer-list {
   border-bottom: solid 2px #0b080a;
   margin-bottom: 3rem;
 }
+
+/* -------------------------------------------------------------------------- */
+/*                              Carrito                                       */
+/* -------------------------------------------------------------------------- */
+
+.mensje-carrito-vacio {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.acciones-carrito {
+  margin-top: 2rem;
+}
+
 /* -------------------------------------------------------------------------- */
 /*                                MEDIA QUERIES                               */
 /* -------------------------------------------------------------------------- */
